@@ -1,0 +1,59 @@
+---
+name: cs102-F2020-lab1
+break: true
+indent: 4
+---
+
+# Learn more about GatorGrader and its supported checks by visiting this web site:
+# https://github.com/GatorEducator/gatorgrader
+
+# Explanation:
+# --> a check without an "--exact" runs a count for an entity as an "at least"
+# --> checks below a file in a specified directory are for that specific file and directory
+# --> checks that appear stand-alone are for an entire Git repository
+
+# --> check the learning objective file
+learning-objectives/mathematical-communication.md:
+    ConfirmFileExists
+    CountMarkdownTags --tag "heading" --count 1 --exact
+    CountMarkdownTags --tag "list" --count 6
+
+# --> check the learning objective file
+learning-objectives/python-programming.md:
+    ConfirmFileExists
+    CountMarkdownTags --tag "heading" --count 1 --exact
+    CountMarkdownTags --tag "list" --count 7
+
+# --> check the Python program
+src/display_course_name.py:
+    ConfirmFileExists
+    CountMultipleLineComments --language Python --count 4
+    CountSingleLineComments --language Python --count 3
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+
+# --> check the technical writing for various characteristics
+writing/reflection.md:
+    ConfirmFileExists
+    CountFileWords --count 300
+    CountMarkdownTags --tag "heading" --count 6 --exact
+    CountMarkdownTags --tag "code" --count 3 --exact
+    CountMarkdownTags --tag "code_block" --count 1 --exact
+    CountMarkdownTags --tag "list" --count 1 --exact
+    MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+
+# --> check that the number of commits in the Git repository is beyond a threshold
+CountCommits --count 5
+
+# --> check that the program executes correctly and produces exactly 6 lines of output
+ExecuteCommand --command "python3 src/display_course_name.py"
+CountCommandOutput --command "python3 src/display_course_name.py" --count 6 --exact
+
+# Output of the Python Program:
+
+# ___  _ ____ ____ ____ ____ ___ ____
+# |  \ | [__  |    |__/ |___  |  |___
+# |__/ | ___] |___ |  \ |___  |  |___
+
+# ____ ___ ____ _  _ ____ ___ _  _ ____ ____ ____
+# [__   |  |__/ |  | |     |  |  | |__/ |___ [__
+# ___]  |  |  \ |__| |___  |  |__| |  \ |___ ___]
