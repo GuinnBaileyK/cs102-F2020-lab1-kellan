@@ -5,4 +5,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'cs100-F2020'
+rootProject.name = 'cs102-F2020'
