@@ -14,7 +14,7 @@ TODO: Add a fenced code block that gives the output from running the program
 
 TODO: Please provide a response to this question!
 
-## After completing this assignment, what is task that you want to practice more? Why?
+## After completing this assignment, what is a task that you want to practice more? Why?
 
 TODO: Please provide a response to this question!
 
