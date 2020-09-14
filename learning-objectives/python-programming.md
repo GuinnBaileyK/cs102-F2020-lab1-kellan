@@ -1,13 +1,33 @@
 # Learning Objectives for Python Programming
 
+- **Performing Python Programming**:
+  - A learner will write short Python functions of ten to twenty Lines that have
+    the following characteristics:
+    - Has function and variable names that adhere to an industry-standard coding
+      style.
+    - Has descriptive comments for both the function declaration and the
+      function's code that adhere to an industry-standard coding style.
+    - Features a source code format that adheres to an industry-standard coding
+      style.
+    - Has a high-coverage automated test suite, written with an
+      industry-standard framework, that effectively exercises at least the 80%
+      of the statements and branches in the function.
+    - Passes an automated test suite and furnishes a correct implementation of
+      the specification for the function.
+    - Performs the specified operation in an efficient fashion, as determined
+      through experiments that evaluate the function's performance.
+    - Correctly uses assignment statements, iteration constructs, conditional
+      logic, and recursion in a way that passes the test suite, works
+      efficiently, and conveys the intended purpose of the function.
+    - Correctly uses discrete structures such as numbers, tuples, sets, streams,
+      and sequences in a way that passes the test suite, works efficiently, and
+      conveys the intended purpose of the function.
+  - A learner will write Python programs consisting of between one and five
+    hundred lines of source code that correctly solve problems using discrete
+    structures.
+
+
 - **Using Python Programming Tools**:
-    - Use a text editor to participate in remote Python programming by
-      effectively completing the following tasks:
-      - Creating and accepting an invitation to collaboratively implement a
-        Python program.
-      - Collaboratively sharing a terminal window with a remote developer.
-      - Running a Python program that starts a server and then sharing the
-        access to that server with a remote developer.
   - A learner will use a Python programming environment to complete these tasks
     while implementing a Python program consisting of between one and five
       hundred lines of code:
@@ -21,6 +41,13 @@
       use tools like a text editor and a terminal window to find and fix the
       failure, ultimately confirming that the Python programs no longer contains
       the failure and the fix did not compromise other functions in the program.
+    - Use a text editor to participate in remote Python programming by
+      effectively completing the following tasks:
+      - Creating and accepting an invitation to collaboratively implement a
+        Python program.
+      - Collaboratively sharing a terminal window with a remote developer.
+      - Running a Python program that starts a server and then sharing the
+        access to that server with a remote developer.
 
 
 - **Using Version Control Systems**:
@@ -47,30 +74,5 @@
     fashion:
 
 
-- **Performing Python Programming**:
-  - A learner will write short Python functions of ten to twenty Lines that have
-    the following characteristics:
-    - Has function and variable names that adhere to an industry-standard coding
-      style.
-    - Has descriptive comments for both the function declaration and the
-      function's code that adhere to an industry-standard coding style.
-    - Features a source code format that adheres to an industry-standard coding
-      style.
-    - Has a high-coverage automated test suite, written with an
-      industry-standard framework, that effectively exercises at least the 80%
-      of the statements and branches in the function.
-    - Passes an automated test suite and furnishes a correct implementation of
-      the specification for the function.
-    - Performs the specified operation in an efficient fashion, as determined
-      through experiments that evaluate the function's performance.
-    - Correctly uses assignment statements, iteration constructs, conditional
-      logic, and recursion in a way that passes the test suite, works
-      efficiently, and conveys the intended purpose of the function.
-    - Correctly uses discrete structures such as numbers, tuples, sets, streams,
-      and sequences in a way that passes the test suite, works efficiently, and
-      conveys the intended purpose of the function.
-  - A learner will write Python programs consisting of between one and five
-    hundred lines of source code that correctly solve problems using discrete
-    structures.
 
 
